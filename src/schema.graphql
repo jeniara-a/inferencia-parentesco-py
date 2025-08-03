@@ -1,0 +1,19 @@
+inferencia-parentesco/
+│
+├── main.py                           # CLI ou entrada do sistema
+├── domain/
+│   ├── modelo.py                     # ML: treinamento, previsão
+│   ├── entidades.py                  # Estrutura de dados: Persona, Individuo
+│   └── servico_inferencia.py         # Lógica de inferência (core)
+│
+├── ports/
+│   ├── entrada_terminal.py          # Porta de entrada CLI
+│   └── saida_arquivo.py             # Escrita de input.json e output.json
+│
+├── adapters/
+│   └── api.py                       # Simulação ou consumo real da API externa
+│
+├── data/
+│   └── mock_dados.json              # Dados de teste
+├── input.json                       # Gerado automaticamente
+└── output.json                      # Resultado com inferência

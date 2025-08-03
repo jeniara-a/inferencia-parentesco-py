@@ -1,0 +1,65 @@
+{
+  "idPersona": "P006",
+  "relacaoIndividuos": [
+    {
+      "idIndividuo": "P010",
+      "nomeIndividuo": "Joana Marques",
+      "grauParentesco": "nenhum",
+      "acuracia": 0.0
+    },
+    {
+      "idIndividuo": "P011",
+      "nomeIndividuo": "Eduardo Lima",
+      "grauParentesco": "nenhum",
+      "acuracia": 0.0
+    },
+    {
+      "idIndividuo": "P012",
+      "nomeIndividuo": "Sofia Rocha",
+      "grauParentesco": "nenhum",
+      "acuracia": 0.0
+    },
+    {
+      "idIndividuo": "P013",
+      "nomeIndividuo": "Lucas Martins",
+      "grauParentesco": "nenhum",
+      "acuracia": 0.0
+    },
+    {
+      "idIndividuo": "P014",
+      "nomeIndividuo": "Paula Mendes",
+      "grauParentesco": "nenhum",
+      "acuracia": 0.0
+    },
+    {
+      "idIndividuo": "P015",
+      "nomeIndividuo": "Henrique Souza",
+      "grauParentesco": "nenhum",
+      "acuracia": 0.0
+    },
+    {
+      "idIndividuo": "P016",
+      "nomeIndividuo": "Camila Torres",
+      "grauParentesco": "nenhum",
+      "acuracia": 0.0
+    },
+    {
+      "idIndividuo": "P017",
+      "nomeIndividuo": "André Nogueira",
+      "grauParentesco": "nenhum",
+      "acuracia": 0.0
+    },
+    {
+      "idIndividuo": "P018",
+      "nomeIndividuo": "Isabela Cruz",
+      "grauParentesco": "nenhum",
+      "acuracia": 0.0
+    },
+    {
+      "idIndividuo": "P019",
+      "nomeIndividuo": "Rafael Teixeira",
+      "grauParentesco": "nenhum",
+      "acuracia": 0.0
+    }
+  ]
+}

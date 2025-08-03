@@ -1,0 +1,103 @@
+[
+  {
+    "idPersona": "P001",
+    "persona": "João Silva",
+    "docPersona": "123.456.789-00",
+    "dadosPersona": {
+      "estadoCivil": {
+        "status": "casado",
+        "conjuge": {
+          "idConjuge": "P005",
+          "nome": "Maria Oliveira"
+        }
+      },
+      "filhos": {
+        "temFilhos": true,
+        "listaFilhos": [
+          {
+            "idFilho": "P002",
+            "nome": "Carlos Silva"
+          },
+          {
+            "idFilho": "P003",
+            "nome": "Fernanda Silva"
+          },
+          {
+            "idFilho": "P004",
+            "nome": "Beatriz Silva"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "listaIndividuos": [
+      {
+        "idIndividuo": "P002",
+        "nome": "Carlos Silva",
+        "indicacao": "filho"
+      },
+      {
+        "idIndividuo": "P003",
+        "nome": "Fernanda Silva",
+        "indicacao": "filha"
+      },
+      {
+        "idIndividuo": "P004",
+        "nome": "Beatriz Silva",
+        "indicacao": "filha"
+      },
+      {
+        "idIndividuo": "P005",
+        "nome": "Maria Oliveira",
+        "indicacao": "esposa"
+      }
+    ]
+  },
+  {
+    "idPersona": "P006",
+    "persona": "Ana Costa",
+    "docPersona": "223.456.789-00",
+    "dadosPersona": {
+      "estadoCivil": {
+        "status": "casada",
+        "conjuge": {
+          "idConjuge": "P010",
+          "nome": "Pedro Gomes"
+        }
+      },
+      "filhos": {
+        "temFilhos": true,
+        "listaFilhos": [
+          {
+            "idFilho": "P007",
+            "nome": "Marcos Costa"
+          },
+          {
+            "idFilho": "P008",
+            "nome": "Luiza Costa"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "listaIndividuos": [
+      {
+        "idIndividuo": "P007",
+        "nome": "Marcos Costa",
+        "indicacao": "filho"
+      },
+      {
+        "idIndividuo": "P008",
+        "nome": "Luiza Costa",
+        "indicacao": "filha"
+      },
+      {
+        "idIndividuo": "P010",
+        "nome": "Pedro Gomes",
+        "indicacao": "esposo"
+      }
+    ]
+  }
+]
