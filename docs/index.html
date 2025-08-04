@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Inferência de Parentesco - Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f7f9fc;
+            color: #333;
+        }
+        header {
+            background-color: #4a90e2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 30px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #4a90e2;
+        }
+        a.botao {
+            display: inline-block;
+            background-color: #4a90e2;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+        a.botao:hover {
+            background-color: #357abd;
+        }
+        footer {
+            text-align: center;
+            font-size: 14px;
+            padding: 15px;
+            background-color: #e3eaf3;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Inferência de Grau de Parentesco com IA</h1>
+        <p>Uma solução inteligente para analisar relações familiares</p>
+    </header>
+
+    <main>
+        <h2>🔍 Sobre o projeto</h2>
+        <p>Este projeto aplica técnicas de aprendizado de máquina para inferir automaticamente o grau de parentesco (como <strong>filho</strong>, <strong>cônjuge</strong> ou <strong>nenhum</strong>) entre indivíduos com base em dados e similaridade de nomes.</p>
+
+        <h2>📊 Ver resultado</h2>
+        <p>Você pode visualizar um exemplo de relatório de inferência gerado automaticamente:</p>
+        <a class="botao" href="output.html" target="_blank">Ver relatório</a>
+
+        <h2>⚙️ Como funciona</h2>
+        <ul>
+            <li>Pré-processamento e normalização dos nomes</li>
+            <li>Extração de features com base em similaridade</li>
+            <li>Treinamento de um modelo <code>RandomForestClassifier</code></li>
+            <li>Inferência de grau de parentesco com combinação de múltiplas predições</li>
+        </ul>
+
+        <h2>📁 Estrutura</h2>
+        <ul>
+            <li><code>/src</code> - Código fonte</li>
+            <li><code>/data</code> - Dataset usado para treino</li>
+            <li><code>/docs</code> - Arquivos para o GitHub Pages</li>
+        </ul>
+    </main>
+
+    <footer>
+        Projeto desenvolvido por Jeniffer Oliveira — Atualizado em <span id="data"></
