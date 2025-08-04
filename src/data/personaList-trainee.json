@@ -1,102 +1,52 @@
 [
   {
-    "idPersona": "P001",
-    "persona": "João Silva",
-    "docPersona": "123.456.789-00",
+    "idPersona": "2025",
     "dadosPersona": {
+      "persona": "Ana Lívia Caldeira",
+      "docPersona": "123.456.789-00",
       "estadoCivil": {
         "status": "casado",
         "conjuge": {
           "idConjuge": "P005",
-          "nome": "Maria Oliveira"
+          "nome": "Carlos Martins",
+          "estadoVida": false
         }
       },
       "filhos": {
-        "temFilhos": true,
         "listaFilhos": [
           {
             "idFilho": "P002",
-            "nome": "Carlos Silva"
+            "nome": "Noah Silva",
+            "estadoVida": true
           },
           {
             "idFilho": "P003",
-            "nome": "Fernanda Silva"
-          },
-          {
-            "idFilho": "P004",
-            "nome": "Beatriz Silva"
+            "nome": "João Silva",
+            "estadoVida": true
           }
         ]
       }
-    }
-  },
-  {
+    },
     "listaIndividuos": [
       {
         "idIndividuo": "P002",
         "nome": "Carlos Silva",
-        "indicacao": "filho"
+        "docIndividuo": "111.111.111-11"
       },
       {
         "idIndividuo": "P003",
-        "nome": "Fernanda Silva",
-        "indicacao": "filha"
-      },
-      {
-        "idIndividuo": "P004",
-        "nome": "Beatriz Silva",
-        "indicacao": "filha"
+        "nome": "João Silva",
+        "docIndividuo": "222.222.222-22"
       },
       {
         "idIndividuo": "P005",
         "nome": "Maria Oliveira",
-        "indicacao": "esposa"
-      }
-    ]
-  },
-  {
-    "idPersona": "P006",
-    "persona": "Ana Costa",
-    "docPersona": "223.456.789-00",
-    "dadosPersona": {
-      "estadoCivil": {
-        "status": "casada",
-        "conjuge": {
-          "idConjuge": "P010",
-          "nome": "Pedro Gomes"
-        }
-      },
-      "filhos": {
-        "temFilhos": true,
-        "listaFilhos": [
-          {
-            "idFilho": "P007",
-            "nome": "Marcos Costa"
-          },
-          {
-            "idFilho": "P008",
-            "nome": "Luiza Costa"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "listaIndividuos": [
-      {
-        "idIndividuo": "P007",
-        "nome": "Marcos Costa",
-        "indicacao": "filho"
+        "docIndividuo": "333.333.333-33"
       },
       {
-        "idIndividuo": "P008",
-        "nome": "Luiza Costa",
-        "indicacao": "filha"
-      },
-      {
-        "idIndividuo": "P010",
-        "nome": "Pedro Gomes",
-        "indicacao": "esposo"
+        "idIndividuo": "P006",
+        "nome": "Desconhecido",
+        "docIndividuo": "444.444.444-44"
       }
     ]
   }

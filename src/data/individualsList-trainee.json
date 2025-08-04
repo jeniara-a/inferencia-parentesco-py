@@ -1,92 +1,11 @@
 [
   {
-    "idIndividuo": "P010",
-    "docIndividuo": "12345678901",
-    "nome": "Joana Marques",
-    "indicacao": "esposa",
-    "nomePai": "Carlos Marques",
-    "nomeMae": "Ana Marques",
-    "estadoVida": true
-  },
-  {
-    "idIndividuo": "P011",
-    "docIndividuo": "12345678902",
-    "nome": "Eduardo Lima",
-    "indicacao": "",
-    "nomePai": "Roberto Lima",
-    "nomeMae": "Mariana Lima",
-    "estadoVida": true
-  },
-  {
-    "idIndividuo": "P012",
-    "docIndividuo": "12345678903",
-    "nome": "Sofia Rocha",
-    "indicacao": "esposa",
-    "nomePai": "Fernando Rocha",
-    "nomeMae": "Clara Rocha",
-    "estadoVida": true
-  },
-  {
     "idIndividuo": "P013",
     "docIndividuo": "12345678904",
-    "nome": "Lucas Martins",
+    "nome": "Noah Silva Martins",
     "indicacao": "filho",
     "nomePai": "Carlos Martins",
-    "nomeMae": "Ana Martins",
-    "estadoVida": true
-  },
-  {
-    "idIndividuo": "P014",
-    "docIndividuo": "12345678905",
-    "nome": "Paula Mendes",
-    "indicacao": "marido",
-    "nomePai": "Roberto Mendes",
-    "nomeMae": "Mariana Mendes",
-    "estadoVida": true
-  },
-  {
-    "idIndividuo": "P015",
-    "docIndividuo": "12345678906",
-    "nome": "Henrique Souza",
-    "indicacao": "marido",
-    "nomePai": "Carlos Souza",
-    "nomeMae": "Ana Souza",
-    "estadoVida": true
-  },
-  {
-    "idIndividuo": "P016",
-    "docIndividuo": "12345678907",
-    "nome": "Camila Torres",
-    "indicacao": "esposa",
-    "nomePai": "Fernando Torres",
-    "nomeMae": "Clara Torres",
-    "estadoVida": true
-  },
-  {
-    "idIndividuo": "P017",
-    "docIndividuo": "12345678908",
-    "nome": "André Nogueira",
-    "indicacao": "esposo",
-    "nomePai": "Roberto Nogueira",
-    "nomeMae": "Mariana Nogueira",
-    "estadoVida": true
-  },
-  {
-    "idIndividuo": "P018",
-    "docIndividuo": "12345678909",  
-    "nome": "Isabela Cruz",
-    "indicacao": "esposa",
-    "nomePai": "Carlos Cruz",
-    "nomeMae": "Ana Cruz",
-    "estadoVida": true
-  },
-  {
-    "idIndividuo": "P019",
-    "docIndividuo": "12345678910",
-    "nome": "Rafael Teixeira",
-    "indicacao": "",
-    "nomePai": "Roberto Teixeira",
-    "nomeMae": "Mariana Teixeira",
+    "nomeMae": "Ana Lívia Caldeira",
     "estadoVida": true
   }
 ]

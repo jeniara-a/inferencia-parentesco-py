@@ -1,0 +1,129 @@
+idPersona,idIndividuo,nomeIndividuo,docIndividuo,grauParentesco,acuracia,rateio,userName,dataHora
+P001,P010,Joana Marques,12345678901,nenhum,0.0,0.0,tester_robot,20250803_135252
+P001,P011,Eduardo Lima,12345678902,nenhum,0.0,0.0,tester_robot,20250803_135252
+P001,P012,Sofia Rocha,12345678903,nenhum,0.0,0.0,tester_robot,20250803_135252
+P001,P013,Lucas Martins,12345678904,nenhum,0.0,0.0,tester_robot,20250803_135252
+P001,P014,Paula Mendes,12345678905,nenhum,0.0,0.0,tester_robot,20250803_135252
+P001,P015,Henrique Souza,12345678906,nenhum,0.0,0.0,tester_robot,20250803_135252
+P001,P016,Camila Torres,12345678907,nenhum,0.0,0.0,tester_robot,20250803_135252
+P001,P017,André Nogueira,12345678908,nenhum,0.0,0.0,tester_robot,20250803_135252
+P001,P018,Isabela Cruz,12345678909,nenhum,0.0,0.0,tester_robot,20250803_135252
+P001,P019,Rafael Teixeira,12345678910,nenhum,0.0,0.0,tester_robot,20250803_135252
+P001,P010,Maria Oliveira,12345678901,nenhum,0.0,0.0,tester_robot,20250803_140409
+P001,P011,Eduardo Lima,12345678902,nenhum,0.0,0.0,tester_robot,20250803_140409
+P001,P012,Sofia Rocha,12345678903,nenhum,0.0,0.0,tester_robot,20250803_140409
+P001,P013,Lucas Martins,12345678904,nenhum,0.0,0.0,tester_robot,20250803_140409
+P001,P014,Paula Mendes,12345678905,nenhum,0.0,0.0,tester_robot,20250803_140409
+P001,P015,Henrique Souza,12345678906,nenhum,0.0,0.0,tester_robot,20250803_140409
+P001,P016,Camila Torres,12345678907,nenhum,0.0,0.0,tester_robot,20250803_140409
+P001,P017,André Nogueira,12345678908,nenhum,0.0,0.0,tester_robot,20250803_140409
+P001,P018,Isabela Cruz,12345678909,nenhum,0.0,0.0,tester_robot,20250803_140409
+P001,P019,Rafael Teixeira,12345678910,nenhum,0.0,0.0,tester_robot,20250803_140409
+P001,P010,Maria Oliveira,12345678901,nenhum,0.0,0.0,tester_robot,20250803_141007
+P001,P011,Eduardo Lima,12345678902,nenhum,0.0,0.0,tester_robot,20250803_141007
+P001,P012,Sofia Rocha,12345678903,nenhum,0.0,0.0,tester_robot,20250803_141007
+P001,P013,Lucas Martins,12345678904,nenhum,0.0,0.0,tester_robot,20250803_141007
+P001,P014,Paula Mendes,12345678905,nenhum,0.0,0.0,tester_robot,20250803_141007
+P001,P015,Henrique Souza,12345678906,nenhum,0.0,0.0,tester_robot,20250803_141007
+P001,P016,Camila Torres,12345678907,nenhum,0.0,0.0,tester_robot,20250803_141007
+P001,P017,André Nogueira,12345678908,nenhum,0.0,0.0,tester_robot,20250803_141007
+P001,P018,Isabela Cruz,12345678909,nenhum,0.0,0.0,tester_robot,20250803_141007
+P001,P019,Rafael Teixeira,12345678910,nenhum,0.0,0.0,tester_robot,20250803_141007
+P001,P010,Maria Oliveira,12345678901,nenhum,0.0,0.0,tester_robot,20250803_141509
+P001,P011,Eduardo Lima,12345678902,nenhum,0.0,0.0,tester_robot,20250803_141509
+P001,P012,Sofia Rocha,12345678903,nenhum,0.0,0.0,tester_robot,20250803_141509
+P001,P013,Lucas Martins,12345678904,nenhum,0.0,0.0,tester_robot,20250803_141509
+P001,P014,Paula Mendes,12345678905,nenhum,0.0,0.0,tester_robot,20250803_141509
+P001,P015,Henrique Souza,12345678906,nenhum,0.0,0.0,tester_robot,20250803_141509
+P001,P016,Camila Torres,12345678907,nenhum,0.0,0.0,tester_robot,20250803_141509
+P001,P017,André Nogueira,12345678908,nenhum,0.0,0.0,tester_robot,20250803_141509
+P001,P018,Isabela Cruz,12345678909,nenhum,0.0,0.0,tester_robot,20250803_141509
+P001,P019,Rafael Teixeira,12345678910,nenhum,0.0,0.0,tester_robot,20250803_141509
+P001,P010,Maria Oliveira,12345678901,nenhum,0.0,0.0,tester_robot,20250803_142157
+P001,P011,Eduardo Lima,12345678902,nenhum,0.0,0.0,tester_robot,20250803_142157
+P001,P012,Sofia Rocha,12345678903,nenhum,0.0,0.0,tester_robot,20250803_142157
+P001,P013,Lucas Martins,12345678904,nenhum,0.0,0.0,tester_robot,20250803_142157
+P001,P014,Paula Mendes,12345678905,nenhum,0.0,0.0,tester_robot,20250803_142157
+P001,P015,Henrique Souza,12345678906,nenhum,0.0,0.0,tester_robot,20250803_142157
+P001,P016,Camila Torres,12345678907,nenhum,0.0,0.0,tester_robot,20250803_142157
+P001,P017,André Nogueira,12345678908,nenhum,0.0,0.0,tester_robot,20250803_142157
+P001,P018,Isabela Cruz,12345678909,nenhum,0.0,0.0,tester_robot,20250803_142157
+P001,P019,Rafael Teixeira,12345678910,nenhum,0.0,0.0,tester_robot,20250803_142157
+P001,P010,Maria Oliveira,12345678901,nenhum,0.0,0.0,tester_robot,20250803_142817
+P001,P011,Eduardo Lima,12345678902,nenhum,0.0,0.0,tester_robot,20250803_142817
+P001,P012,Sofia Rocha,12345678903,nenhum,0.0,0.0,tester_robot,20250803_142817
+P001,P013,Lucas Martins,12345678904,nenhum,0.0,0.0,tester_robot,20250803_142817
+P001,P014,Paula Mendes,12345678905,nenhum,0.0,0.0,tester_robot,20250803_142817
+P001,P015,Henrique Souza,12345678906,nenhum,0.0,0.0,tester_robot,20250803_142817
+P001,P016,Camila Torres,12345678907,nenhum,0.0,0.0,tester_robot,20250803_142817
+P001,P017,André Nogueira,12345678908,nenhum,0.0,0.0,tester_robot,20250803_142817
+P001,P018,Isabela Cruz,12345678909,nenhum,0.0,0.0,tester_robot,20250803_142817
+P001,P019,Rafael Teixeira,12345678910,nenhum,0.0,0.0,tester_robot,20250803_142817
+P001,P010,Maria Oliveira,12345678901,nenhum,0.0,0.0,tester_robot,20250803_143921
+P001,P011,Eduardo Lima,12345678902,nenhum,0.0,0.0,tester_robot,20250803_143921
+P001,P012,Sofia Rocha,12345678903,nenhum,0.0,0.0,tester_robot,20250803_143921
+P001,P013,Lucas Martins,12345678904,nenhum,0.0,0.0,tester_robot,20250803_143921
+P001,P014,Paula Mendes,12345678905,nenhum,0.0,0.0,tester_robot,20250803_143921
+P001,P015,Henrique Souza,12345678906,nenhum,0.0,0.0,tester_robot,20250803_143921
+P001,P016,Camila Torres,12345678907,nenhum,0.0,0.0,tester_robot,20250803_143921
+P001,P017,André Nogueira,12345678908,nenhum,0.0,0.0,tester_robot,20250803_143921
+P001,P018,Isabela Cruz,12345678909,nenhum,0.0,0.0,tester_robot,20250803_143921
+P001,P019,Rafael Teixeira,12345678910,nenhum,0.0,0.0,tester_robot,20250803_143921
+P001,P010,Maria Oliveira,12345678901,nenhum,1.0,0,tester_robot,20250803_144644
+P001,P011,Eduardo Lima,12345678902,nenhum,1.0,0,tester_robot,20250803_144644
+P001,P012,Sofia Rocha,12345678903,nenhum,1.0,0,tester_robot,20250803_144644
+P001,P013,Lucas Martins,12345678904,nenhum,1.0,0,tester_robot,20250803_144644
+P001,P014,Paula Mendes,12345678905,nenhum,1.0,0,tester_robot,20250803_144644
+P001,P015,Henrique Souza,12345678906,nenhum,1.0,0,tester_robot,20250803_144644
+P001,P016,Camila Torres,12345678907,nenhum,1.0,0,tester_robot,20250803_144644
+P001,P017,André Nogueira,12345678908,nenhum,1.0,0,tester_robot,20250803_144644
+P001,P018,Isabela Cruz,12345678909,nenhum,1.0,0,tester_robot,20250803_144644
+P001,P019,Rafael Teixeira,12345678910,nenhum,1.0,0,tester_robot,20250803_144644
+P001,P010,Maria Oliveira,12345678901,nenhum,1.0,0,tester_robot,20250803_164734
+P001,P011,Eduardo Lima,12345678902,nenhum,1.0,0,tester_robot,20250803_164734
+P001,P012,Sofia Rocha,12345678903,nenhum,1.0,0,tester_robot,20250803_164734
+P001,P013,Lucas Martins,12345678904,nenhum,1.0,0,tester_robot,20250803_164734
+P001,P014,Paula Mendes,12345678905,nenhum,1.0,0,tester_robot,20250803_164734
+P001,P015,Henrique Souza,12345678906,nenhum,1.0,0,tester_robot,20250803_164734
+P001,P016,Camila Torres,12345678907,nenhum,1.0,0,tester_robot,20250803_164734
+P001,P017,André Nogueira,12345678908,nenhum,1.0,0,tester_robot,20250803_164734
+P001,P018,Isabela Cruz,12345678909,nenhum,1.0,0,tester_robot,20250803_164734
+P001,P019,Rafael Teixeira,12345678910,nenhum,1.0,0,tester_robot,20250803_164734
+P001,P010,Maria Oliveira,12345678901,nenhum,1.0,0,tester_robot,20250803_170333
+P001,P011,Eduardo Lima,12345678902,nenhum,1.0,0,tester_robot,20250803_170333
+P001,P012,Sofia Rocha,12345678903,nenhum,1.0,0,tester_robot,20250803_170333
+P001,P013,Noah Silva,12345678904,nenhum,1.0,0,tester_robot,20250803_170333
+P001,P014,Paula Mendes,12345678905,nenhum,1.0,0,tester_robot,20250803_170333
+P001,P015,Henrique Souza,12345678906,nenhum,1.0,0,tester_robot,20250803_170333
+P001,P016,Camila Torres,12345678907,nenhum,1.0,0,tester_robot,20250803_170333
+P001,P017,André Nogueira,12345678908,nenhum,1.0,0,tester_robot,20250803_170333
+P001,P018,Isabela Cruz,12345678909,nenhum,1.0,0,tester_robot,20250803_170333
+P001,P019,Rafael Teixeira,12345678910,nenhum,1.0,0,tester_robot,20250803_170333
+2025,P013,Noah Silva,12345678904,nenhum,1.0,0,tester_robot,20250803_184332
+2025,P013,Noah Silva,12345678904,nenhum,1.0,0,tester_robot,20250803_185621
+2025,P013,Noah Silva,12345678904,nenhum,1.0,0,tester_robot,20250803_190103
+2025,P013,Noah Silva,12345678904,nenhum,1.0,0,tester_robot,20250803_190531
+2025,P013,Noah Silva,12345678904,filho,1.0,5000.0,tester_robot,20250803_191011
+2025,P013,Noah Silva,12345678904,filho,1.0,100.0,tester_robot,20250803_191801
+2025,P013,Noah Silva,12345678904,filho,1.0,100.0,tester_robot,20250803_192027
+2025,P013,Noah Silva,12345678904,filho,1.0,50.0,tester_robot,20250803_193256
+2025,desconhecido,Carlos Martins,n/a,conjuge,1.0,50.0,tester_robot,20250803_193256
+2025,P013,Noah Silva,12345678904,filho,1.0,50.0,tester_robot,20250803_201147
+2025,desconhecido,Carlos Martins,n/a,conjuge,1.0,50.0,tester_robot,20250803_201147
+2025,P013,Noah Silva,12345678904,filho,1.0,50.0,tester_robot,20250803_201242
+2025,desconhecido,Carlos Martins,n/a,conjuge,1.0,50.0,tester_robot,20250803_201242
+2025,P013,Noah Silva,12345678904,filho,1.0,100.0,tester_robot,20250803_202645
+2025,P013,Noah Silva Martins,12345678904,nenhum,1.0,0,tester_robot,20250803_202837
+2025,P013,Noah Silva Martins,12345678904,nenhum,1.0,0,tester_robot,20250804_045803
+2025,P013,Noah Silva Martins,12345678904,filho,0.0,0.0,tester_robot,20250804_051145
+2025,P013,Noah Silva Martins,12345678904,filho,0.0,0.0,tester_robot,20250804_052641
+2025,P013,Noah Silva Martins,12345678904,filho,0.0,0.0,tester_robot,20250804_052835
+2025,P013,Noah Silva Martins,12345678904,filho,0.0,0.0,tester_robot,20250804_053011
+2025,P013,Noah Silva Martins,12345678904,filho,0.0,0.0,tester_robot,20250804_053326
+2025,P013,Noah Silva Martins,12345678904,filho,0.0,0.0,tester_robot,20250804_055434
+2025,P013,Noah Silva Martins,12345678904,filho,0.0,0.0,tester_robot,20250804_055910
+2025,P013,Noah Silva Martins,12345678904,filho,0.0,0.0,tester_robot,20250804_060515
+2025,P013,Noah Silva Martins,12345678904,filho,1.0,100.0,tester_robot,20250804_060910
+2025,P013,Noah Silva Martins,12345678904,filho,1.0,100.0,tester_robot,20250804_062117
+2025,P013,Noah Silva Martins,12345678904,filho,1.0,100.0,tester_robot,20250804_065323
+2025,P013,Noah Silva Martins,12345678904,filho,1.0,100.0,tester_robot,20250804_070213

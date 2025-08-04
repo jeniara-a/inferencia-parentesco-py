@@ -1,0 +1,55 @@
+nomePersona,nomeIndividuo,sim_com_persona,sim_com_filho,sim_com_conjuge,grau_real
+Yago Santos,Thomas Gomes,34.78260869565217,100.0,37.03703703703704,filho
+Ana Luiza Cardoso,Enrico Fogaça,33.333333333333336,100.0,25.0,filho
+Nathan Alves,Maria Eduarda Porto,19.354838709677423,100.0,29.411764705882348,filho
+Srta. Catarina Barros,Maria Julia da Luz,41.02564102564102,100.0,26.66666666666667,filho
+Nathan Alves,Isis Gomes,27.27272727272727,28.57142857142857,31.999999999999996,nenhum
+Yago Santos,Dra. Fernanda Ribeiro,25.0,33.333333333333336,33.333333333333336,nenhum
+Emanuella Viana,Srta. Esther Rocha,30.303030303030297,100.0,33.333333333333336,filho
+Nathan Alves,Vicente Freitas,29.629629629629626,48.484848484848484,100.0,conjuge
+Ana Lívia Caldeira,Luiz Miguel Sales,22.857142857142854,34.48275862068966,29.629629629629626,nenhum
+Ana Lívia Caldeira,Noah Silva,35.71428571428571,34.78260869565217,100.0,conjuge
+Yago Santos,Emanuel Nogueira,29.629629629629626,100.0,45.16129032258065,filho
+Srta. Catarina Barros,Valentina Rodrigues,40.0,32.432432432432435,25.806451612903224,nenhum
+Gabriel Lima,Alexia Gonçalves,21.42857142857143,53.333333333333336,28.57142857142857,nenhum
+Gabriel Lima,Clarice Moura,48.0,100.0,40.0,filho
+Emanuella Viana,Maria Barros,29.629629629629626,35.71428571428571,100.0,conjuge
+Emanuelly Pinto,João Guilherme da Paz,22.22222222222222,100.0,27.77777777777778,filho
+Srta. Catarina Barros,Clarice Souza,41.17647058823529,100.0,31.999999999999996,filho
+Emanuella Viana,Heloísa da Rocha,38.70967741935484,100.0,35.71428571428571,filho
+Nathan Alves,Davi da Rocha,31.999999999999996,100.0,21.42857142857143,filho
+Srta. Catarina Barros,Cauê Rezende,18.181818181818176,31.999999999999996,100.0,conjuge
+Srta. Catarina Barros,Caroline da Costa,47.36842105263158,53.333333333333336,27.586206896551722,nenhum
+Ana Lívia Caldeira,Luiz Gustavo Ferreira,35.89743589743589,100.0,19.354838709677423,filho
+Ana Luiza Cardoso,Lucas Gabriel da Conceição,37.2093023255814,35.89743589743589,27.027027027027028,nenhum
+Emanuelly Pinto,Pietro Cunha,44.44444444444444,30.303030303030297,29.629629629629626,nenhum
+Enrico Gonçalves,Isadora Lopes,34.48275862068966,100.0,27.586206896551722,filho
+Ana Luiza Cardoso,Júlia Lopes,28.57142857142857,41.666666666666664,100.0,conjuge
+Nathan Alves,Clarice Nascimento,40.0,100.0,48.484848484848484,filho
+Emanuelly Pinto,Raquel Alves,29.629629629629626,100.0,29.629629629629626,filho
+Enrico Gonçalves,Guilherme Gomes,32.25806451612904,21.42857142857143,19.354838709677423,nenhum
+Yago Santos,Gustavo Moreira,30.76923076923077,45.16129032258065,100.0,conjuge
+Eloah Ferreira,Ana Julia Moreira,51.61290322580645,25.0,100.0,conjuge
+Gabriel Lima,Cauê da Rosa,25.0,46.15384615384615,100.0,conjuge
+Ana Lívia Caldeira,Nicole Jesus,19.999999999999996,100.0,27.27272727272727,filho
+Yago Santos,Sr. João Miguel Fogaça,24.242424242424242,55.81395348837209,32.432432432432435,nenhum
+Emanuella Viana,Sr. João Lucas Porto,17.14285714285714,36.8421052631579,31.25,nenhum
+Enrico Gonçalves,Benício da Costa,37.5,27.586206896551722,100.0,conjuge
+Ana Luiza Cardoso,Marcela Ramos,33.333333333333336,100.0,41.666666666666664,filho
+Enrico Gonçalves,Mariana Carvalho,31.25,27.586206896551722,25.0,nenhum
+Emanuella Viana,Thales Ferreira,26.66666666666667,32.25806451612904,29.629629629629626,nenhum
+Gabriel Lima,Nicole Vieira,40.0,100.0,24.0,filho
+Ana Lívia Caldeira,Gabriel Rocha,25.806451612903224,100.0,34.78260869565217,filho
+Emanuelly Pinto,Alícia Ferreira,19.999999999999996,30.76923076923077,100.0,conjuge
+Emanuelly Pinto,Srta. Emanuelly Silveira,61.53846153846154,100.0,30.76923076923077,filho
+Gabriel Lima,Sr. Otávio Santos,20.68965517241379,32.25806451612904,27.586206896551722,nenhum
+Emanuelly Pinto,Carlos Eduardo Cunha,28.57142857142857,34.14634146341463,22.857142857142854,nenhum
+Eloah Ferreira,Sr. João Pedro Cardoso,27.77777777777778,37.83783783783784,30.76923076923077,nenhum
+Ana Lívia Caldeira,Dr. Davi Luiz Moura,37.83783783783784,37.5,27.586206896551722,nenhum
+Ana Luiza Cardoso,Nathan Moraes,26.66666666666667,100.0,25.0,filho
+Nathan Alves,Nathan Rodrigues,42.85714285714286,34.48275862068966,32.25806451612904,nenhum
+Gabriel Lima,Carolina Sales,38.46153846153846,100.0,46.15384615384615,filho
+Eloah Ferreira,Breno Caldeira,42.85714285714286,55.172413793103445,45.16129032258065,nenhum
+Ana Luiza Cardoso,Enzo Melo,23.076923076923073,45.45454545454546,19.999999999999996,nenhum
+Yago Santos,Srta. Maysa Rodrigues,31.25,100.0,44.44444444444444,filho
+Eloah Ferreira,Benício Cardoso,20.68965517241379,100.0,25.0,filho

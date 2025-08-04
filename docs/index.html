@@ -1,80 +1,88 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Inferência de Parentesco - Homepage</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Inferência de Grau de Parentesco</title>
     <style>
+        /* Tema clean e minimalista */
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f7f9fc;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: #f9f9f9;
             color: #333;
-        }
-        header {
-            background-color: #4a90e2;
-            color: white;
-            padding: 20px;
+            margin: 0;
+            padding: 0 1rem;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
             text-align: center;
         }
         main {
-            padding: 30px;
-            max-width: 800px;
-            margin: auto;
+            background: white;
+            padding: 2rem 3rem;
+            border-radius: 8px;
+            box-shadow: 0 8px 20px rgb(0 0 0 / 0.1);
+            max-width: 600px;
         }
-        h1, h2 {
-            color: #4a90e2;
+        h1 {
+            font-weight: 700;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
         }
-        a.botao {
-            display: inline-block;
+        p {
+            font-size: 1.1rem;
+            line-height: 1.5;
+            margin-bottom: 2rem;
+            color: #555;
+        }
+        button {
             background-color: #4a90e2;
+            border: none;
             color: white;
-            padding: 12px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            margin-top: 15px;
+            padding: 0.75rem 2.5rem;
+            font-size: 1.2rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.25s ease-in-out;
+            box-shadow: 0 4px 12px rgb(74 144 226 / 0.4);
         }
-        a.botao:hover {
+        button:hover {
             background-color: #357abd;
         }
         footer {
-            text-align: center;
-            font-size: 14px;
-            padding: 15px;
-            background-color: #e3eaf3;
-            margin-top: 40px;
+            margin-top: 3rem;
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+        /* Responsivo */
+        @media (max-width: 480px) {
+            main {
+                padding: 1.5rem 1.5rem;
+                max-width: 90vw;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+            button {
+                font-size: 1rem;
+                padding: 0.6rem 2rem;
+            }
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Inferência de Grau de Parentesco com IA</h1>
-        <p>Uma solução inteligente para analisar relações familiares</p>
-    </header>
-
     <main>
-        <h2>🔍 Sobre o projeto</h2>
-        <p>Este projeto aplica técnicas de aprendizado de máquina para inferir automaticamente o grau de parentesco (como <strong>filho</strong>, <strong>cônjuge</strong> ou <strong>nenhum</strong>) entre indivíduos com base em dados e similaridade de nomes.</p>
-
-        <h2>📊 Ver resultado</h2>
-        <p>Você pode visualizar um exemplo de relatório de inferência gerado automaticamente:</p>
-        <a class="botao" href="output.html" target="_blank">Ver relatório</a>
-
-        <h2>⚙️ Como funciona</h2>
-        <ul>
-            <li>Pré-processamento e normalização dos nomes</li>
-            <li>Extração de features com base em similaridade</li>
-            <li>Treinamento de um modelo <code>RandomForestClassifier</code></li>
-            <li>Inferência de grau de parentesco com combinação de múltiplas predições</li>
-        </ul>
-
-        <h2>📁 Estrutura</h2>
-        <ul>
-            <li><code>/src</code> - Código fonte</li>
-            <li><code>/data</code> - Dataset usado para treino</li>
-            <li><code>/docs</code> - Arquivos para o GitHub Pages</li>
-        </ul>
+        <h1>🧠 🎯 Inferência de Grau de Parentesco</h1>
+        <p>
+            Este é um modelo de machine learning supervisionado para, dado uma persona e uma lista de indivíduos relacionados (citados ou aleatórios), inferir o grau de parentesco para sucessão de 1º grau (filhos e cônjuges vivos), a partir de características extraídas por similaridade textual.
+        </p>
+        <button onclick="alert('Aqui você pode implementar a ação para descobrir o herdeiro!')">Descubra o Herdeiro</button>
     </main>
 
     <footer>
-        Projeto desenvolvido por Jeniffer Oliveira — Atualizado em <span id="data"></
+        &copy; 2025 Jeniffer Oliveira — Projeto inferencia-parentesco-py
+    </footer>
+</body>
+</html>
