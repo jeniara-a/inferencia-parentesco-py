@@ -72,6 +72,29 @@ O modelo utilizado é o `RandomForestClassifier`, da biblioteca **Scikit-learn**
     - Incluir o **filho desconhecido** no campo `relacaoIndividuos` do resultado da inferência.
 ---
 
+## 📄 Resultado
+
+O resultado será apresentado conforme abaixo, disponível no arquivo `output`, nos formatos **.csv**, **.html** e **.json**  
+➡️ Exemplo com dataset fictício disponível em: [https://jeniara-a.github.io/inferencia-parentesco-py/](https://jeniara-a.github.io/inferencia-parentesco-py/)
+
+---
+
+### 🧍‍♀️ Persona:
+
+| **idPersona**              | **nomePersona**          | **estadoCivil**                                | **numFilhosVivos**                    |
+|----------------------------|--------------------------|------------------------------------------------|----------------------------------------|
+| id identificador da persona (tabular) | nome da persona (tabular) | estado civil da persona (casado(a), solteiro(a), viúvo(a), etc.) | número de filhos vivos da persona (0, 1, 2, 3, …) |
+
+---
+
+### 👥 Relação de Indivíduos Classificados:
+
+| **idIndividuo**           | **nomeIndividuo**         | **grauParentesco**                                                   | **grauResultado**                                                  | **estadoVida**                              | **rateio**                          |
+|---------------------------|---------------------------|---------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------|-------------------------------------|
+| id identificador do indivíduo (tabular) | nome do indivíduo (tabular) | grau de parentesco indicado pelo indivíduo (cônjuge, filho ou nenhum/outro) (tabular) | grau de parentesco inferido via modelo (cônjuge, filho ou nenhum/outro) | estado de vida do indivíduo (true = vivo, false = falecido) (tabular) | percentual de rateio inferido via modelo |
+
+---
+
 ## 🚧 Status
 
 📅 Projeto em construção — *última atualização: 05/08/2025*
