@@ -9,7 +9,7 @@
         "conjuge": {
           "idConjuge": "P005",
           "nome": "Carlos Martins",
-          "estadoVida": false
+          "estadoVida": true
         }
       },
       "filhos": {

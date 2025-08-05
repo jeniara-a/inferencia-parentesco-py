@@ -67,7 +67,9 @@ O modelo utilizado é o `RandomForestClassifier`, da biblioteca **Scikit-learn**
   - Reservar **50% do valor para um cônjuge fictício (desconhecido)**;
   - Ratear os outros 50% entre os **filhos com acurácia >= 1.0**;
   - Incluir o **cônjuge desconhecido** no campo `relacaoIndividuos` do resultado da inferência.
-
+- Se a `persona` tiver **filhos vivos** declarados e o **filho não estiver listado** em `listaIndividuos`, o sistema deve:
+    - Reservar o valor correspondente do rateio para o filho vivo
+    - Incluir o **filho desconhecido** no campo `relacaoIndividuos` do resultado da inferência.
 ---
 
 ## 🚧 Status

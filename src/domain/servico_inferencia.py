@@ -38,10 +38,24 @@ class ServicoInferencia:
     
     @classmethod
     def gerar_relatorio_html(cls, resultado, caminho_arquivo=caminho_saida_html):
+        from datetime import datetime  # garantir que está importado
         nome_persona = resultado.get("nomePersona", "Desconhecido")
         data_atual = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
-        html = """
+        # Ordenar os indivíduos por acurácia (1.0 primeiro)
+        relacoes_ordenadas = sorted(
+            resultado["relacaoIndividuos"],
+            key=lambda r: r["acuracia"],
+            reverse=True
+        )
+
+        # 👉 Coletar nomes dos indivíduos para o subtítulo
+        nomes_individuos = [r["nomeIndividuo"] for r in relacoes_ordenadas]
+        subtitulo_nomes = ", ".join(nomes_individuos) if nomes_individuos else "Nenhum indivíduo relacionado"
+
+        print("lista de nomes dos indivíduos:", relacoes_ordenadas)
+
+        html = f"""
         <html>
         <head>
             <style>
@@ -57,6 +71,7 @@ class ServicoInferencia:
         </head>
         <body>
             <h2>Resultado Grau de Parentesco - Persona: {nome_persona}</h2>
+            <h4>Indivíduos analisados: {subtitulo_nomes}</h4>
             <table>
                 <thead>
                     <tr>
@@ -69,9 +84,9 @@ class ServicoInferencia:
                     </tr>
                 </thead>
                 <tbody>
-        """.format(nome_persona=nome_persona)
+        """
 
-        for relacao in resultado["relacaoIndividuos"]:
+        for relacao in relacoes_ordenadas:
             classe = "acuracia-1" if relacao["acuracia"] == 1.0 else "acuracia-0"
             estado_vida_str = "Vivo" if relacao.get("estadoVida", False) else "Falecido"
             html += f"""
@@ -133,7 +148,7 @@ class ServicoInferencia:
         nome = ' '.join(palavras)
         return nome.strip()
 
-    def encontrar_grau_real(self, individuo, filhos, conjuge, limiar=70):
+    def encontrar_grau_real(self, individuo, filhos, conjuge, limiar=80):
         nome_ind = self.normalizar_nome(individuo["nome"])
         indicacao = self.normalizar_grau_indicado(individuo.get("indicacao", ""))
 
@@ -205,7 +220,7 @@ class ServicoInferencia:
         # --- Preparação de dados ---
         persona = dados["dadosPersona"]
         dados_persona = persona.get("dadosPersona", {})
-        lista_individuos = [i for i in dados["listaIndividuos"] if i.get("estadoVida", False) is True]
+        lista_individuos = dados["listaIndividuos"]
         filhos = dados_persona.get("filhos", {}).get("listaFilhos", [])
         filhos_vivos = [f for f in filhos if f.get("estadoVida", False) is True]
         conjuge = dados_persona.get("estadoCivil", {}).get("conjuge", {})
@@ -282,31 +297,35 @@ class ServicoInferencia:
             "relacaoIndividuos": []
         }
 
-        for individuo, pred in zip(lista_individuos, predicoes):
-            grau_real = self.encontrar_grau_real(individuo, filhos_vivos, conjuge)
-            print(f"Comparando predição '{pred}' com grau_real '{grau_real}' para '{individuo['nome']}'")
-
-            acuracia = 1.0 if pred == grau_real else 0.0
-
-            resultado = {
+        resultado = {
                 "idPersona": dados["idPersona"],
                 "nomePersona": dados["dadosPersona"]["dadosPersona"].get("persona", "Desconhecido"),
                 "relacaoIndividuos": []
             }
 
+        for individuo, pred in zip(lista_individuos, predicoes):
+            grau_real = self.encontrar_grau_real(individuo, filhos, conjuge)
+            acuracia = 1.0 if pred == grau_real else 0.0
+
+            grau_exibido = pred if acuracia == 1.0 else "nenhum"
+
             resultado["relacaoIndividuos"].append({
                 "idIndividuo": individuo["idIndividuo"],
                 "nomeIndividuo": individuo["nome"],
                 "docIndividuo": individuo.get("docIndividuo", ""),
-                "grauParentesco": pred,
+                "grauParentesco": grau_exibido,
                 "acuracia": acuracia,
                 "rateio": 0.0,
                 "estadoVida": individuo.get("estadoVida", True)
             })
 
+
+        print("Resultado da inferência:", resultado)
+
         # --- Aplicar rateio ---
         ratear_individuos(resultado["relacaoIndividuos"], 100.0)
-
+        
+        #resultado = resultado["relacaoIndividuos"].sort(key=lambda x: (-x["acuracia"], -int(x["estadoVida"])))
         self.gerar_relatorio_html(resultado)
         self.abrir_html()
 

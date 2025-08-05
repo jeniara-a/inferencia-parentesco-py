@@ -8,7 +8,16 @@
       "docIndividuo": "12345678904",
       "grauParentesco": "filho",
       "acuracia": 1.0,
-      "rateio": 100.0,
+      "rateio": 50.0,
+      "estadoVida": true
+    },
+    {
+      "idIndividuo": "desconhecido",
+      "nomeIndividuo": "Carlos Martins",
+      "docIndividuo": "n/a",
+      "grauParentesco": "conjuge",
+      "acuracia": 1.0,
+      "rateio": 50.0,
       "estadoVida": true
     }
   ]
