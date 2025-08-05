@@ -98,3 +98,4 @@ O resultado será apresentado conforme abaixo, disponível no arquivo `output`, 
 ## 🚧 Status
 
 📅 Projeto em construção — *última atualização: 05/08/2025*
+ 
