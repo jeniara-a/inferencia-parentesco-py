@@ -95,7 +95,39 @@ O resultado será apresentado conforme abaixo, disponível no arquivo `output`, 
 
 ---
 
+## 📌 Extra – Inferência usando LLM
+
+Além da inferência tradicional implementada no projeto, será incluída uma **segunda etapa opcional** de inferência usando **Modelos de Linguagem (LLM)**.  
+
+Essa etapa permitirá:
+- Utilizar **prompts zero-shot, one-shot e few-shot** para avaliar e comparar a capacidade de modelos LLM em inferir relações de parentesco.
+- Testar diferentes abordagens de prompt engineering para maximizar a precisão do resultado.
+- Retornar não apenas o **grau de parentesco** e **rateio**, mas também um **score de assertividade** e **justificativa** para cada indivíduo.
+
+### Formato de saída esperado
+O LLM deverá retornar a saída no formato JSON, conforme exemplo:
+
+```json
+[
+  {
+    "nome": "Carlos Souza",
+    "grau_parentesco": "filho",
+    "rateio": "50%",
+    "score_assertividade": 1.0,
+    "justificativa": "documento comprova que é filho"
+  },
+  {
+    "nome": "Fernanda Souza",
+    "grau_parentesco": "filha",
+    "rateio": "50%",
+    "score_assertividade": 1.0,
+    "justificativa": "documento comprova que é filha"
+  }
+]
+
+---
+
 ## 🚧 Status
 
-📅 Projeto em construção — *última atualização: 05/08/2025*
+📅 Projeto em construção — *última atualização: 09/08/2025*
  
